@@ -1,8 +1,10 @@
 {
   "name": "harser",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
+  "image": "j3m3/haskell-devcontainer:base",
+  "runArgs": [
+    "--name",
+    "${localEnv:USER}-harser"
+  ],
   "customizations": {
     "vscode": {
       "extensions": [
