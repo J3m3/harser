@@ -1,0 +1,16 @@
+{
+  "name": "harser",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "haskell.haskell",
+        "phoityne.phoityne-vscode",
+        "justusadam.language-haskell",
+        "hoovercj.haskell-linter"
+      ]
+    }
+  }
+}

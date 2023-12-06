@@ -1,0 +1,1 @@
+FROM vsc-haskell-5b801ecee6cd65ff0b4133f23775e212e5d68494cf07f1750e95fbcc61b5095c-features:latest
