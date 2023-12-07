@@ -5,8 +5,8 @@ import Data.Map qualified as M
 data JsonValue
   = JsonNull
   | JsonBool Bool
-  | JsonNumber Integer
+  | JsonNumber Integer -- TODO: support floats
   | JsonString String
   | JsonArray [JsonValue]
   | JsonObject (M.Map String JsonValue)
-  deriving (Show)
+  deriving (Show, Eq)
