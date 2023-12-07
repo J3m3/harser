@@ -1,9 +1,9 @@
 {
-  "name": "harser",
+  "name": "hason",
   "image": "j3m3/haskell-devcontainer:base",
   "runArgs": [
     "--name",
-    "${localEnv:USER}-harser"
+    "${localEnv:USER}-hason"
   ],
   "customizations": {
     "vscode": {
