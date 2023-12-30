@@ -1,6 +1,6 @@
 module Ast where
 
-import Data.Map qualified as M
+import Data.Map.Strict qualified as M
 
 data JsonValue
   = JsonNull

@@ -3,7 +3,7 @@ module Parser where
 import Ast
 import Control.Applicative
 import Data.Char
-import Data.Map qualified as M
+import Data.Map.Strict qualified as M
 
 -- TODO: support proper error reports
 newtype Parser a = Parser
