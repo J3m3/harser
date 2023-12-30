@@ -1,0 +1,48 @@
+{
+  "title": "hason",
+  "author": "J3m3",
+  "version": "0.1.0-alpha",
+  "dependencies": {
+    "base": "4.19.0.0",
+    "containers": "0.7"
+  },
+  "references": {
+    "videos": [
+      {
+        "creator": "Tsoding",
+        "year": 2019,
+        "month": 11,
+        "day": 22,
+        "url": "https://youtu.be/N9RUqGYuGfw?si=IH8eGtMByBroQV_7",
+        "available": true
+      }
+    ],
+    "docs": [
+      {
+        "title": "HaskellWiki",
+        "url": "https://wiki.haskell.org/Haskell"
+      },
+      {
+        "title": "hackage",
+        "url": "https://hackage.haskell.org/package/base"
+      }
+    ],
+    "books": [
+      {
+        "title": "Haskell wikibook",
+        "author": "All the contributors",
+        "closed": false,
+        "price": null
+      },
+      {
+        "title": "Learn You a Haskell for Great Good!",
+        "author": "Miran Lipovača",
+        "closed": false,
+        "price": {
+          "e-book": "$35.95",
+          "print book": "$44.95"
+        }
+      }
+    ]
+  }
+}
