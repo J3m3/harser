@@ -11,8 +11,8 @@ parseFile parser file = do
 
 printf :: (Show a) => a -> IO ()
 printf content = do
-  print content
   putStrLn "----------------------------------------"
+  print content
 
 main :: IO ()
 main = do
