@@ -2,7 +2,7 @@
 
 > Yes, a Json parser written in Haskell
 
-# Getting Started
+## Getting Started
 
 > Note: Make sure that GHC is installed in your environment
 
@@ -25,7 +25,7 @@ ghc -o parse Main.hs -no-keep-hi-files -no-keep-o-files
 ./parse about.json any.json
 ```
 
-# TODOs
+## TODOs
 
 - [x] use Data.Map instead of [(String, JsonValue)]
 - [ ] support escape sequences
