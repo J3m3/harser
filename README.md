@@ -19,10 +19,10 @@ cd hason
 ghc -o parse Main.hs -no-keep-hi-files -no-keep-o-files
 ```
 
-2. Test w/ any `.json` files! ~~Well, unless they don't touch umimplemented TODOs~~
+3. Let's test! I already provided `about.json` for test, but feel free to test w/ other `.json` files. ~~Well, unless they don't touch umimplemented TODOs.~~
 
 ```bash
-./parse any.json
+./parse about.json any.json
 ```
 
 # TODOs
