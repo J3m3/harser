@@ -1,4 +1,4 @@
-module Parser where
+module Parser (module Ast, Parser (..), jsonParser) where
 
 import Ast
 import Control.Applicative

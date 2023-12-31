@@ -1,6 +1,5 @@
 module Main where
 
-import Ast
 import Parser
 import System.Environment
 
