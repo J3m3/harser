@@ -21,6 +21,6 @@ ghc -o parse Main.hs -no-keep-hi-files -no-keep-o-files
 # TODOs
 
 - [x] use Data.Map instead of [(String, JsonValue)]
-- [] support escape sequences
-- [] support floats
-- [] improve error messages
+- [ ] support escape sequences
+- [ ] support floats
+- [ ] improve error messages
